@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    
+}
+
+.test h1{
+text-align: center;
+color: white;
+
+}
+
+.eyes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.eyes .eye{
+    width: 300px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.eyes .eye .item{
+    width: 100px;
+    height: 140px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    animation: movement 2s infinite alternate ease-in-out;
+    position: relative;
+}
+
+
+
+
+@keyframes movement {
+    0%{
+        
+            left: 50px;
+        
+    }
+
+    100%{
+       
+           left: -50px;
+        
+    }
+    
+}
+
+
+
+
+    
